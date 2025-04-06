@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DTube</string>
+    <string name="label_homepage">Trang chủ</string>
+    <string name="label_short">Shorts</string>
+    <string name="label_subscriptions">Kênh đăng ký</string>
+    <string name="label_you">Bạn</string>
+    <string name="home_str_continue_watching">Tiếp tục xem</string>
+    <string name="str_all">Tất cả</string>
+    <string name="str_watched_video">Video đã xem</string>
+    <string name="str_playlist">Danh sách phát</string>
+    <string name="str_view_all">Xem tất cả</string>
+    <string name="str_feature_develop">Tính năng đang được phát triển</string>
+</resources>

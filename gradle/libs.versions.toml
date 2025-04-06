@@ -1,0 +1,68 @@
+[versions]
+agp = "8.7.3"
+kotlin = "1.9.23"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.9.2"
+composeBom = "2024.04.01"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+
+
+androidx-appcompat = "androidx.appcompat:appcompat:1.7.0" 
+compose-m3-android = "androidx.compose.material3:material3-android:1.2.1"
+navigation-compose = "androidx.navigation:navigation-compose:2.8.1"
+lifecyle-runtime-compose = "androidx.lifecycle:lifecycle-runtime-compose:2.8.6"
+core-splash = "androidx.core:core-splashscreen:1.0.1"
+kotlinx-serialization-protobuf = "org.jetbrains.kotlinx:kotlinx-serialization-protobuf:1.6.3"
+kotlinx-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.6.3"
+datastore-android = "androidx.datastore:datastore-android:1.1.1"
+foundation-store = "org.mobilenativefoundation.store:store5:5.1.0-alpha04"
+retrofit2 = "com.squareup.retrofit2:retrofit:2.11.0"
+retrofit2-kotlinx-serialization = "com.squareup.retrofit2:converter-kotlinx-serialization:2.11.0"
+media3-datasource-okhttp = "androidx.media3:media3-datasource-okhttp:1.4.1"
+jsoup = "org.jsoup:jsoup:1.17.2"
+coil-compose = "io.coil-kt:coil-compose:2.3.0"
+accompainist-systemuicontroller = "com.google.accompanist:accompanist-systemuicontroller:0.30.1"
+lottie-compose = "com.airbnb.android:lottie-compose:6.0.0"
+media3-exoplayer = "androidx.media3:media3-exoplayer:1.4.1"
+media3-ui = "androidx.media3:media3-ui:1.4.1"
+media3-exoplayer-hls = "androidx.media3:media3-exoplayer-hls:1.4.1"
+
+room-runtime = "androidx.room:room-runtime:2.6.1"
+room-ktx = "androidx.room:room-ktx:2.6.1"
+room-compiler-annotation = "androidx.room:room-compiler:2.6.1"
+room-compiler-ksp = "androidx.room:room-compiler:2.6.1"
+
+dagger-hilt = "com.google.dagger:hilt-android:2.51.1"
+hilt-navigation-compose = "androidx.hilt:hilt-navigation-compose:1.2.0"
+dagger-hilt-annotation = "com.google.dagger:hilt-compiler:2.51.1"
+dagger-hilt-kapt = "com.google.dagger:hilt-compiler:2.51.1"
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+#kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version = "1.9.23" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version = "1.9.23" }
+devtools-ksp = { id = "com.google.devtools.ksp", version = "1.9.23-1.0.20" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version = "2.51.1" }
+
